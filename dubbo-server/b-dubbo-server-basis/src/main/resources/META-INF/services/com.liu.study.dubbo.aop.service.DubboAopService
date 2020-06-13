@@ -1,0 +1,3 @@
+firstDubbo=com.liu.study.dubbo.aop.service.impl.FirstDubboAopServiceImpl
+secondDubbo=com.liu.study.dubbo.aop.service.impl.SecondDubboAopServiceImpl
+specifyDubbo=com.liu.study.dubbo.aop.service.impl.SpecifyDubboAopServiceImpl

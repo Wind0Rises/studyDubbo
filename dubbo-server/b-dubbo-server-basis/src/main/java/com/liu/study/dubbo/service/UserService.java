@@ -17,14 +17,7 @@ public class UserService implements IUserService {
 
     @Override
     public String queryUserMessage() {
-        System.out.println("UserService服务   ===>    queryUserMessage被调用");
-
-        try {
-            TimeUnit.SECONDS.sleep(11);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
+        System.out.println("【Server】UserService服务   ===>    queryUserMessage被调用");
         return "SUCCESS";
     }
 

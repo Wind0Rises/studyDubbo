@@ -1,0 +1,3 @@
+second=com.liu.study.dubbo.spi.service.impl.SecondSpiServiceImpl
+com.liu.study.dubbo.spi.wrapper.FirstSpiWrapper
+
