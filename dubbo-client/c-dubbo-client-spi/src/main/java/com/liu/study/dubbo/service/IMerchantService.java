@@ -8,6 +8,9 @@ package com.liu.study.dubbo.service;
  */
 public interface IMerchantService {
 
+    /**
+     * d
+     */
     public void queryMerchantInfo();
 
 }

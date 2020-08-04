@@ -1,0 +1,2 @@
+dubboSpiFirstServiceImpl = com.liu.study.dubbo.service.impl.DubboSpiFirstServiceImpl
+dubboSpiSecondServiceImpl = com.liu.study.dubbo.service.impl.DubboSpiSecondServiceImpl

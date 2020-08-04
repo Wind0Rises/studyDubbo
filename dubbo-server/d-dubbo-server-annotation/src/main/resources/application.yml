@@ -1,0 +1,17 @@
+server:
+  port: 7003
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+dubbo:
+  application:
+    name: annotation-server
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  config-center:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    name: dubbo
+    prot: 20880

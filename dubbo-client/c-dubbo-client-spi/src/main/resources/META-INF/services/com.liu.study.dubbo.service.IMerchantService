@@ -1,0 +1,2 @@
+com.liu.study.dubbo.service.impl.AlibabaMerchantServiceImpl
+com.liu.study.dubbo.service.impl.WechatMerchantServiceImpl
