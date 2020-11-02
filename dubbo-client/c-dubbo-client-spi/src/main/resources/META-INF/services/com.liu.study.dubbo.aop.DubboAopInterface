@@ -1,0 +1,4 @@
+red=com.liu.study.dubbo.aop.impl.DubboAopRedBlackImpl
+black=com.liu.study.dubbo.aop.impl.DubboAopRedCarImpl
+com.liu.study.dubbo.aop.DubboAopWrapper
+com.liu.study.dubbo.aop.DubboAopWrapperSecond

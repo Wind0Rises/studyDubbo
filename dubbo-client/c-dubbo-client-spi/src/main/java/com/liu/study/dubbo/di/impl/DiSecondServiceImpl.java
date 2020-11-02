@@ -1,6 +1,7 @@
 package com.liu.study.dubbo.di.impl;
 
 import com.liu.study.dubbo.di.DiTestService;
+import org.apache.dubbo.common.URL;
 
 /**
  * 依赖注入第一个测试类。
@@ -12,7 +13,7 @@ import com.liu.study.dubbo.di.DiTestService;
 public class DiSecondServiceImpl implements DiTestService {
 
     @Override
-    public void diTestMethod() {
+    public void diTestMethod(URL url) {
         System.out.println("==========   Second  ==========");
     }
 }

@@ -1,2 +1,3 @@
-com.liu.study.dubbo.di.impl.DiFirstServiceImpl
-com.liu.study.dubbo.di.impl.DiSecondServiceImpl
+first=com.liu.study.dubbo.di.impl.DiFirstServiceImpl
+second=com.liu.study.dubbo.di.impl.DiSecondServiceImpl
+di=com.liu.study.dubbo.di.DiHappenClass

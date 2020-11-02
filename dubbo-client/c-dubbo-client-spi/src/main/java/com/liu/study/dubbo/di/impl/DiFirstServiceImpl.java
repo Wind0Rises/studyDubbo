@@ -1,6 +1,7 @@
 package com.liu.study.dubbo.di.impl;
 
 import com.liu.study.dubbo.di.DiTestService;
+import org.apache.dubbo.common.URL;
 import org.apache.dubbo.common.extension.SPI;
 
 /**
@@ -13,7 +14,7 @@ import org.apache.dubbo.common.extension.SPI;
 public class DiFirstServiceImpl implements DiTestService {
 
     @Override
-    public void diTestMethod() {
+    public void diTestMethod(URL url) {
         System.out.println("==========   First  ==========");
     }
 
