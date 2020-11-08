@@ -1,0 +1,2 @@
+second=com.liu.study.dubbo.di.impl.DuuboImportServiceSecondImpl
+first=com.liu.study.dubbo.di.impl.DuuboImportServiceImpl

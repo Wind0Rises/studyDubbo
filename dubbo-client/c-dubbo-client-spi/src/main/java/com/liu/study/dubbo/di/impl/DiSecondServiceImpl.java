@@ -14,6 +14,6 @@ public class DiSecondServiceImpl implements DiTestService {
 
     @Override
     public void diTestMethod(URL url) {
-        System.out.println("==========   Second  ==========");
+        System.out.println("==========   Second  【DiTestService的实现类】  ==========");
     }
 }
