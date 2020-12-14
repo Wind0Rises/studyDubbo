@@ -14,6 +14,7 @@ public interface DiTestService {
 
     /**
      * 依赖注册测试。
+     * @Adaptive 为{@link ExtensionLoader}提供有用的信息以注入依赖项扩展实例。
      */
     @Adaptive("num")
     void diTestMethod(URL url);
