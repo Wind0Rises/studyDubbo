@@ -59,6 +59,7 @@
         <module>b-dubbo-client-basis</module>
         <module>c-dubbo-client-spi</module>
         <module>d-dubbo-client-annotation</module>
+        <module>f-dubbo-client-generic</module>
     </modules>
 
     <build>
