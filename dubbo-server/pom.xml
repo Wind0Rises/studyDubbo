@@ -59,7 +59,7 @@
         <module>a-dubbo-server-common</module>
         <module>b-dubbo-server-basis</module>
         <module>c-dubbo-server-spi</module>
-        <module>d-dubbo-server-annotation</module>
+        <module>d-dubbo-server-export</module>
         <module>e-dubbo-server-export</module>
     </modules>
 

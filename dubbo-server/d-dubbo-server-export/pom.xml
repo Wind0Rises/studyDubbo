@@ -3,22 +3,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>dubbo-client</artifactId>
+        <artifactId>dubbo-server</artifactId>
         <groupId>com.liu.study.dubbo</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>d-dubbo-client-annotation</artifactId>
+    <artifactId>d-dubbo-server-export</artifactId>
 
-    <name>d-dubbo-client-annotation</name>
+    <name>d-dubbo-server-export</name>
     <url>http://www.example.com</url>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
 
     <dependencies>
         <dependency>
@@ -35,8 +29,9 @@
 
         <dependency>
             <groupId>com.liu.study.dubbo</groupId>
-            <artifactId>a-dubbo-client-common</artifactId>
+            <artifactId>a-dubbo-server-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
     </dependencies>
 </project>

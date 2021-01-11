@@ -8,6 +8,6 @@ package com.liu.study.dubbo;
  */
 public interface IUserService {
 
-    public String queryUserMessage();
+    String queryUserMessage();
 
 }

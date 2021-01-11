@@ -6,8 +6,9 @@ import org.apache.dubbo.common.extension.ExtensionLoader;
 
 import java.util.ServiceLoader;
 
-
 /**
+ *
+ * SPI测试类。
  *
  * @author Liuweian
  * @version 1.0.0
