@@ -1,6 +1,5 @@
 package com.liu.study.dubbo.di.impl;
 
-import com.liu.study.dubbo.di.DiTestService;
 import com.liu.study.dubbo.di.DuuboImportService;
 import org.apache.dubbo.common.URL;
 

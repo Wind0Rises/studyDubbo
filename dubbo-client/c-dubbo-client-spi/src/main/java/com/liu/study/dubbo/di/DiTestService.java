@@ -9,11 +9,12 @@ import org.apache.dubbo.common.extension.SPI;
  * @version 1.0.0
  * @createTime 2020/8/4 15:06
  */
-@SPI
+@SPI(value = "first")
 public interface DiTestService {
 
     /**
      * 依赖注册测试。
+     *
      * @Adaptive 为{@link ExtensionLoader}提供有用的信息以注入依赖项扩展实例。
      */
     @Adaptive("num")

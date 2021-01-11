@@ -13,7 +13,7 @@ import org.apache.dubbo.common.URL;
 public interface DuuboImportService {
 
     /**
-     * asd
+     * 没有被{@link org.apache.dubbo.common.extension.Adaptive}修饰。
      */
     void importMethod(URL url);
 

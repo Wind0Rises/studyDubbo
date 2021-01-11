@@ -11,7 +11,7 @@ import java.util.Map;
  * @version 1.0.0
  * @createTime 2020/11/2 13:07
  */
-public class TestSecond {
+public class TestSecondAdaptive {
 
     public static void main(String[] args) {
         /**
@@ -20,9 +20,12 @@ public class TestSecond {
         ExtensionLoader<DuuboImportService> extensionLoader = ExtensionLoader.getExtensionLoader(DuuboImportService.class);
 
         /**
-         * getExtension()：参数不能为空，如果传入一个true，获取找对应接口默认的实现，这个默认的的实现是在接口的@SPI注解指定的。
+         * getExtension()：参数不能为空，如果传入一个true，获取到对应接口默认的实现，这个默认的的实现是在接口的@SPI注解指定的。
+         * <note>获取默认的实现</note>
          */
         DuuboImportService di = extensionLoader.getExtension("true");
+
+
         Map<String, String> map = new HashMap<>(8);
         map.put("num", "second");
         URL url = new URL("", "", 1, map);

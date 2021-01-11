@@ -7,12 +7,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ *
+ * {@link ExtensionLoader}是Dubbo的SPI。
  * 
  * @author Liuweian
  * @createTime 2020/11/1 13:56
  * @version 1.0.0
  */
-public class Test {
+public class TestFirstAdaptive {
 
     public static void main(String[] args) {
         /**
