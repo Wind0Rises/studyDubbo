@@ -11,6 +11,6 @@ public interface IMerchantService {
     /**
      * d
      */
-    public void queryMerchantInfo();
+    void queryMerchantInfo();
 
 }
