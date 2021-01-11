@@ -12,6 +12,6 @@ public interface DubboAnnotationService {
      * @param username
      * @return
      */
-    public String queryUserName(String username);
+    String queryUserName(String username);
 
 }

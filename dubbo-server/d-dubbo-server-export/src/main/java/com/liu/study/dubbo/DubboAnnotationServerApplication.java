@@ -12,6 +12,8 @@ import org.springframework.context.ConfigurableApplicationContext;
 @EnableDubbo(scanBasePackages = "com.liu.study.dubbo.service")
 public class DubboAnnotationServerApplication {
     public static void main( String[] args ) {
+
         ConfigurableApplicationContext context = SpringApplication.run(DubboAnnotationServerApplication.class);
+
     }
 }
